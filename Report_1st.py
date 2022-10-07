@@ -14,7 +14,7 @@ print(7*24)
 
 # 4 터틀 그래픽에서 거북이를 이동시켜서 다음과 같은 그림을 그려보자. foward(), right(), left() 함수만을 사용한다
 import turtle                                                                        # turtle 불러오기
-t = turtle .Turtle()                                                                 # t값 지정하기
+t = turtle .Turtle()                                                                 # 편의를 위해 t값 사용해서 줄이기 지정하기
 t.shape("turtle")                                                                    # t 모양을 거북이 모양으로 한다는 뜻
 t.forward(100)                                                                       # t를 100만큼 이동
 t.left(90)                                                                           # t를 왼쪽으로 90도 회전
